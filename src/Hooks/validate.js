@@ -22,6 +22,8 @@ export const validate = (values) => {
   
     if (values.isAttendingWithGuest && !values.guestName) {
       errors.guestName = 'Guest Name is required';
+    }else if (!isNaN(values.guestName)) {
+      errors.guestName = 'Name cannot be a number';
     }
   
     return errors;
