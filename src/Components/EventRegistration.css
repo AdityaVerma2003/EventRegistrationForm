@@ -27,7 +27,12 @@
 button{
     margin-top: 5vh;
 }
-
+p{
+    color: red;
+}
+.formData p{
+    color:black;
+}
 .loginsignup-login{
     margin-top: 20px;
     color: #5c5c5c;
